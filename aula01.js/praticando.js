@@ -1,5 +1,5 @@
 //Declarar uma variável, atribuir um valor numérico a ela. 
-//Mostrar o valor e o tipo. Teste todos os tipos vistos em sala de aula.
+//Mostrar o valor e o tipo. Teste todos os tipos vistos em sala de aula:
 var numero =  32;
 mostrar("Chamada da função:O número escolhido da Variável é" + numero);
 
@@ -81,3 +81,14 @@ function testArray(){
 //no console:"array da posicao 1 é volvo
 //no console:array da posicao 2 é BMW
 //no console:
+
+//Informe o nome e a idade de uma pessoa e imprima se esta pessoa é maior ou menor de idade.
+var idade = 32;
+if(idade>18){
+    console.log("Você é maior de idade ENTRADA AUTORIZADA");
+}else if(idade>18 && idade<30){
+    console.log("BOA FESTA ENTRADA PERMITIDA!");
+}else{
+    console.log("PROIBIDA ENTRADA PARA MENORES")
+}
+   
